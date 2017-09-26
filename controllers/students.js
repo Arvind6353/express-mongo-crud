@@ -58,8 +58,6 @@ exports.updateStudentById = function(req, res, next) {
     })
 }
 
-
-
 exports.deleteStudentById = function(req, res, next) {
     Students.findByIdAndRemove(req.params.studentId, function(err, docs) {
         if (err) {
