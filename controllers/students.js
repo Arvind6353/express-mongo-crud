@@ -65,6 +65,6 @@ exports.deleteStudentById = function(req, res, next) {
             return;
         }
         console.log('deleted ', req.params.studentId)
-        res.send(`deleted student ${req.params.studentId}`)
+        res.json(docs)
     })
 }

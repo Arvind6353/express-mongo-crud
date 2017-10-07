@@ -4,7 +4,7 @@
     var mongoose = require('mongoose')
 
 
-    mongoose.connect('mongodb://admin:admin@ds149874.mlab.com:49874/sample')
+    mongoose.connect('mongodb://admin:admin@ds113505.mlab.com:13505/sample')
 
     var db = mongoose.connection
 
